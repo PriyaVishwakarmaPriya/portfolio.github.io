@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIYA - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Frank Ruhl Libre', serif;
+
+
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 97px;
+            
+            background-color: rgb(14, 14, 72);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    color:gray;
+    font-size:1.08rem;
+}
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 90px 0;
+
+        }
+
+
+        .firstsection>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            margin: 40px 0;
+            ;
+        }
+        .button{
+padding: 26px;
+        }
+        .btn{
+            padding:12px;
+            background:rgb(56, 5, 76);
+            color:white;
+            border: 2px solid white;
+            border-radius: 8px;;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightsection img {
+            margin-top: 2px;
+            width: 94%;
+        }
+
+        .purple {
+            color: purple;
+        }
+        #element{
+            color:purple;
+        }
+        h1{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 30px;
+        }
+          .contactform{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 50px;
+        }
+        #phone{
+            margin-top: 50px;
+        }
+        #exampleCheck1{
+            margin-top: 50px;
+        }
+        .btn-primary{
+            margin-top:50px;
+            margin-left: 110px ;
+            border-radius: 60px;
+        }
+        #yourname{
+            margin-bottom: 50px;
+        }
+        #emailHelp{
+            margin-bottom: 50px;
+           
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size:0.7rem;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Priya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="main">
+        <h1>Contact Me For General Enquiry</h1>
+        <div class="contactform"><form>
+            <div class="mb-3">
+                <label for="yourname" class="form-label" id="myname">Name</label>
+                <input type="text" class="form-control" id="yourname">
+              </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label" id="emaile">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email and phone No. with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label" id="phone">Phone</label>
+              <input type="number" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">I want to work with you on a project.</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form></div>
+    </div>
+    </body></html>
